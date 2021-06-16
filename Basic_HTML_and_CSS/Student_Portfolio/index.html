@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+        <!---Head--->
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width"/>
+            <title>Kelsey Anderson</title>
+            <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+        </head>
+
+        <!---body--->
+        <body class="Background">
+        
+            <!---Navbar--->
+            <div class = "Navbar">
+                <a class="active" href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Github">GitHub</a>
+                <a href="#Contact">Contact</a>
+            </div>
+
+      
+            <br>
+            <br>
+
+            <!--Background video--->
+            <div id="Home">
+                <video autoplay muted loop id="Typing_Video">
+                    <source src="images/video/video (1).mp4" type="video/mp4">
+                    Your browser doesn't support HTML5 video.
+                </video>
+            </div>
+
+            <!---video text--> 
+            <div class="Video_Text">
+                <h1 class="white-text">Kelsey's Portfolio</h1>
+                <strong>
+                    <p class="center">
+                        <q>The best way to predict the future is to create it.</q>
+                            <br>-Abraham Lincoln
+                            <br>
+                        <br>
+                        <br>
+                        <br>My name is Kelsey Anderson. Welcome to my portfolio website!
+                        <br>On it, I will tell you about my background and experience.
+                        <br>Thanks for stopping by!
+                    </p>
+                </strong>
+             </div>
+
+             <!---about section--->
+             <div class="Row" id="About">
+                 <!---left column-->
+                 <div class="Column_2">
+                     <img src="images/overhead_shot.jpg" alt="computer">
+                 </div>
+                 <!---right column--->
+                 <div class="Column_1">
+                     <h1>About</h1>
+                     <p>
+                        I am a technology professional with a background in teaching and building automation. As a mother of two, I enjoy spending time with my family.   
+                        <br>
+                        <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                        <br>
+                        <br>I am seeking long-term employment at a company that values my strong work ethic, loyalty, attention to detail, and desire to grow personally and professionally.
+                        <br><a href="#Contact">Contact</a> me below!                        
+                     </p>
+                 </div>
+             </div>
+
+             <!--github section--->
+
+        <div class="Row" id="Github">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Kelsey-Anderson" target="_blank">Kelsey Anderson's Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/Kelsey-Anderson" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+             
+             <!---contact section--->
+             <div class="row" id ="Contact">
+                 <!---contact image left column--->
+                 <div class="Column_2 column_tall">
+                    <img src="images/contact_2.jpg" alt="contact_image">
+                 </div>
+                 <!---contact form, right column-->
+                 <div class="Column_1 column_tall">
+                     <h1>Contact</h1>
+                     <!---this specifies where to send form data-->
+                     <form action="https://formspree.io/f/xleangdo" method="POST"> 
+                        <label>Name:</label>
+                            <input type="text" placeholder="Please enter your name here">
+                        <label>Email:</label>
+                            <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                        <label>Message:</label>
+                            <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                            <input type="submit" value="SUBMIT">
+                    </form>
+                 </div>
+             </div>
+
+        <!--Footer section-->
+        <footer>
+            <div class="left">&copy Kelsey Anderson, 2021</p>
+                <br>
+            </div>
+        </footer>
+        </body>
+
+</html>
